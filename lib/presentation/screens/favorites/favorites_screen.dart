@@ -21,7 +21,6 @@ class FavoritesScreeen extends StatelessWidget {
                       shrinkWrap: true,
                       padding: const EdgeInsets.all(10),
                       scrollDirection: Axis.vertical,
-                      physics: BouncingScrollPhysics(),
                       itemCount: model.favs.length,
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
