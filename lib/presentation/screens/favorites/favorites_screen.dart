@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class FavoritesScreeen extends StatelessWidget {
-  MovieProvider provider;
-  FavoritesScreeen(this.provider);
   @override
   Widget build(BuildContext context) {
         return Consumer<MovieProvider>(

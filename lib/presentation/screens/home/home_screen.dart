@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onPressed: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => FavoritesScreeen(model))))
+                              builder: (context) => FavoritesScreeen())))
                 ],
               ),
               body: Container(
